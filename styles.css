@@ -33,3 +33,41 @@ footer {
     color: #E5E7EB;
     text-align: center;
 }
+
+.hero-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.hero-panel img {
+    height: 400px;
+    width: auto;   
+    margin: 30px;
+    border-radius: 1%;
+    border: 2px solid #E5E7EB;
+}
+
+.hero-panel h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-panel p {
+    color: #E5E7EB;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+.hero-panel button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
