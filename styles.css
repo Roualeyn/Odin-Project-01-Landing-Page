@@ -131,3 +131,35 @@ figcaption {
     font-weight: bold;
     text-align: end;
 }
+
+.call-to-action-panel {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    color: #F9FAF8
+}
+
+.call-to-action-background {
+    background-color: #3882F6;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    margin: 0;
+    border-radius: 1em;
+}
+
+.call-to-action-background h1, .call-to-action-background p {
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 0 1.5em;
+    border: 2px solid #F9FAF8;
+    border-radius: 1em;
+}
