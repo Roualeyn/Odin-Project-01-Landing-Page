@@ -109,3 +109,25 @@ figcaption {
     text-align: center;
 }
 
+.quote-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-items: center;
+    padding: 2em;
+}
+
+.quote-panel p {
+    width: 60vw;
+    margin: 0;
+}
+
+.quote-panel .quote-attribution {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
